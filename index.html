@@ -3,7 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Automatické stahování faktur z emailu - Gabriela Tomíčková</title>
+<title>Automatické stahování faktur z Gmailu na Google Drive - návod zdarma | Gabriela Tomíčková</title>
+  <meta name="description" content="Krok za krokem: nastavte agenta který automaticky stahuje faktury z Gmailu na Google Drive. Google Apps Script, zdarma, funkční za 30 minut.">
+  <meta name="keywords" content="automatické stahování faktur Gmail, Google Apps Script faktury, faktura z emailu na Drive, automatizace faktur zdarma">
+  <meta name="author" content="Gabriela Tomíčková">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Automatické stahování faktur z Gmailu na Google Drive - návod zdarma | Gabriela Tomíčková">
+  <meta property="og:description" content="Krok za krokem: nastavte agenta který automaticky stahuje faktury z Gmailu na Google Drive. Google Apps Script, zdarma, funkční za 30 minut.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="cs_CZ">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Automatické stahování faktur z Gmailu na Google Drive - návod zdarma | Gabriela Tomíčková">
+  <meta name="twitter:description" content="Krok za krokem: nastavte agenta který automaticky stahuje faktury z Gmailu na Google Drive. Google Apps Script, zdarma, funkční za 30 minut.">
+  <link rel="canonical" href="">
+  <script type="application/ld+json">
+  {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Automatické stahování faktur z Gmailu na Google Drive",
+      "description": "Návod jak nastavit Google Apps Script agenta pro automatické stahování faktur z Gmailu na Google Drive.",
+      "url": "https://checklist.gabrielatomickova.cz",
+      "totalTime": "PT45M",
+      "supply": [{ "@type": "HowToSupply", "name": "Gmail účet" }, { "@type": "HowToSupply", "name": "Google Drive" }],
+      "author": { "@type": "Person", "name": "Gabriela Tomíčková" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CZK" }
+    }
+  </script>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -122,6 +147,7 @@ footer { background:#0a0a0a; padding:22px 40px; display:flex; justify-content:sp
 
 <nav class="no-print">
   <div class="nav-brand">Gabriela <span>Tomíčková</span></div>
+  <a href="https://gabrielatomickova.cz" style="font-size:13px;font-weight:600;color:var(--mid);text-decoration:none;padding:6px 14px;border:1px solid var(--border);border-radius:4px;transition:all 0.2s;" onmouseover="this.style.borderColor='#e9a91b';this.style.color='#e9a91b'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--mid)'">gabrielatomickova.cz</a>
   <button class="nav-cta" onclick="window.print()">Uložit jako PDF</button>
 </nav>
 
@@ -435,7 +461,7 @@ footer { background:#0a0a0a; padding:22px 40px; display:flex; justify-content:sp
 
 <footer>
   <div class="footer-brand">Gabriela <span>Tomíčková</span> - AI a Procesní konzultant</div>
-  <div class="footer-legal">Příčná 49, Vrchlabí - IČO: 75905311 &nbsp;·&nbsp; <a href="https://tomickovainfo-aidascan.github.io/gdpr/" style="color:rgba(255,255,255,0.35);text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#e9a91b'" onmouseout="this.style.color='rgba(255,255,255,0.35)'">Zásady ochrany osobních údajů</a></div>
+  <div class="footer-legal">Příčná 49, Vrchlabí - IČO: 75905311 &nbsp;·&nbsp; <a href="https://gdpr.gabrielatomickova.cz" style="color:rgba(255,255,255,0.35);text-decoration:none;transition:color 0.2s;" onmouseover="this.style.color='#e9a91b'" onmouseout="this.style.color='rgba(255,255,255,0.35)'">Zásady ochrany osobních údajů</a></div>
 </footer>
 
 <script>
